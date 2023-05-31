@@ -1,0 +1,43 @@
+// Utilizando un if para comparar el valor de numeroIf
+numeroIf <- 10
+si numeroIf > 0 entonces
+    mostrar "El número es positivo"
+sino si numeroIf < 0 entonces
+    mostrar "El número es negativo"
+sino
+    mostrar "El número es 0"
+fin si
+
+// Usando Bucle While
+numeroWhile <- 0
+mientras numeroWhile < 3 hacer
+    numeroWhile <- numeroWhile + 1
+    mostrar numeroWhile
+fin mientras
+
+// Utilizando Bucle Do While
+numeroDoWhile <- 0
+repetir
+    numeroDoWhile <- numeroDoWhile + 1
+    mostrar numeroDoWhile
+hasta que numeroDoWhile >= 3
+
+// usando Bucle For
+para numeroFor desde 0 hasta 3 hacer
+    mostrar numeroFor
+fin para
+
+// Ejemplo de bucle  Switch usando un caso para las estaciones del año
+estacion <- 3
+segun estacion hacer
+    caso 1:
+        mostrar "Primavera"
+    caso 2:
+        mostrar "Verano"
+    caso 3:
+        mostrar "Otoño"
+    caso 4:
+        mostrar "Invierno"
+    otro caso:
+        mostrar "Estación no válida"
+fin segun
